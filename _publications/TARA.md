@@ -7,8 +7,10 @@ excerpt: 'A token-aware approach enabling composable personalization for diffusi
 date: 2025-8-12
 venue: 'AAAI 2026'
 slidesurl: 
+paper_label: "PDF"
 paperurl: 'https://arxiv.org/abs/2508.08812'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
+bibtex_label: "Code"
+bibtexurl: 'https://github.com/YuqiPeng77/TARA'
 citation: 'Peng, Y. et al. (2025). TARA: Token-Aware LoRA for Composable Personalization in Diffusion Models. arXiv:2508.08812.'
 ---
 Personalized text-to-image generation aims to synthesize novel images of a specific subject or style using only a few reference images. Recent methods based on Low-Rank Adaptation (LoRA) enable efficient single-concept customization by injecting lightweight, concept-specific adapters into pre-trained diffusion models. However, combining multiple LoRA modules for multi-concept generation often leads to identity missing and visual feature leakage. In this work, we identify two key issues behind these failures: (1) token-wise interference among different LoRA modules, and (2) spatial misalignment between the attention map of a rare token and its corresponding concept-specific region. To address these issues, we propose Token-Aware LoRA (TARA), which introduces a token mask to explicitly constrain each module to focus on its associated rare token to avoid interference, and a training objective that encourages the spatial attention of a rare token to align with its concept region. Our method enables training-free multi-concept composition by directly injecting multiple independently trained TARA modules at inference time. Experimental results demonstrate that TARA enables efficient multi-concept inference and effectively preserving the visual identity of each concept by avoiding mutual interference between LoRA modules.
