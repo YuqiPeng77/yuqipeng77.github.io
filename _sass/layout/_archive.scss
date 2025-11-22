@@ -9,6 +9,25 @@
     @include span(12 of 12);
   }
 
+   /* --- custom teaser for publications --- */
+  .archive__item {
+    display: flex;
+    align-items: flex-start; // 上对齐（可改为 center）
+    gap: 1rem;
+  }
+
+  .archive__item-teaser {
+    flex: 0 0 120px;   // 你可以改成 100px / 140px
+    max-width: 120px;
+  }
+
+  .archive__item-teaser img {
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+  }
+
+
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
