@@ -2,7 +2,7 @@
 title: "PLoc: A New Evaluation Criterion Based on Physical Location for Autonomous Driving Datasets"
 collection: publications
 category: conferences
-permalink: /publications/PLoc
+permalink: /publication/PLoc
 excerpt: 
 date: 2026-3-26
 venue: 'ICICIP 2024'
