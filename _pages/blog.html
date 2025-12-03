@@ -6,25 +6,27 @@ author_profile: true
 ---
 
 <div class="wordwrap">
-  A collection of my notes, ideas, and reflections.
+A collection of my notes, ideas, and reflections.
 </div>
 
 {% include base_path %}
 
 {% for post in site.blog reversed %}
-  <article class="archive__item">
-    <h2 class="archive__item-title">
+  <article class="archive__item" style="margin-bottom: 28px;">
+
+    <h2 class="archive__item-title" style="font-size: 21.5px; margin-bottom: 4px;">
       <a href="{{ post.redirect_to }}" target="_blank">{{ post.title }}</a>
     </h2>
 
     {% if post.summary %}
-      <p class="archive__item-excerpt">
+      <p class="archive__item-excerpt" style="font-size: 17px; color: #555; margin-top: 0; margin-bottom: 4px;">
         {{ post.summary }}
       </p>
     {% endif %}
 
-    <p class="page__meta">
+    <p class="page__meta" style="font-size: 15px; color: #666; margin-top: 0;">
       {{ post.date | date: "%B %d, %Y" }}
     </p>
+
   </article>
 {% endfor %}
