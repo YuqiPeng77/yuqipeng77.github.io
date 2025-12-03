@@ -6,11 +6,9 @@ author_profile: true
 ---
 
 {% for post in site.blog reversed %}
-### <a href="{{ post.redirect_to }}" target="_blank">{{ post.title }}</a>
+<h2 style="font-size: 32px; margin-bottom: 0;">
+  <a href="{{ post.redirect_to }}" target="_blank">{{ post.title }}</a>
+</h2>
 
-<span style="color: #666; font-size: 0.9em;">
-{{ post.date | date: "%B %d, %Y" }}
-</span>
-
-<br><br>
+<p style="margin-top: 5px;">{{ post.date | date: "%B %d, %Y" }}</p>
 {% endfor %}
