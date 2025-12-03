@@ -7,23 +7,20 @@ summary: "A collection of my notes, ideas, and reflections."
 ---
 
 {% if page.summary %}
-<div style="font-size: 0.9em; color: #555; margin-top: 6px; margin-bottom: 12px;">
-{{ page.summary }}
-</div>
-
+<div style="font-size: 0.95em; color: #555; margin-top: 4px; margin-bottom: 16px;">
   {{ page.summary }}
 </div>
 {% endif %}
 
-{% comment %}
+
 {% for post in site.blog reversed %}
 
-<h2 style="font-size: 32px; margin-bottom: 4px;">
+<h2 style="font-size: 24px; margin-bottom: 4px;">
   <a href="{{ post.redirect_to }}" target="_blank">{{ post.title }}</a>
 </h2>
 
 {% if post.summary %}
-  <div style="font-size: 15px; color: #555; margin-top: 0; margin-bottom: 2px;">
+  <div style="font-size: 16px; color: #555; margin-top: 0; margin-bottom: 2px;">
     {{ post.summary }}
   </div>
 {% endif %}
@@ -34,24 +31,6 @@ summary: "A collection of my notes, ideas, and reflections."
 
 
 {% endfor %}
-{% endcomment %}
 
 
-{% for post in site.blog reversed %}
-
-<h2 class="archive__item-title">
-  <a href="{{ post.redirect_to }}" target="_blank">{{ post.title }}</a>
-</h2>
-
-{% if post.summary %}
-  <p class="archive__item-excerpt">
-    {{ post.summary }}
-  </p>
-{% endif %}
-
-<p class="page__meta">
-  {{ post.date | date: "%B %d, %Y" }}
-</p>
-
-{% endfor %}
 
