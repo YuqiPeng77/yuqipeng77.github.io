@@ -14,17 +14,17 @@ A collection of my notes, ideas, and reflections.
 {% for post in site.blog reversed %}
   <article class="archive__item" style="margin-bottom: 28px;">
 
-    <h2 class="archive__item-title" style="font-size: 21.5px; margin-bottom: 4px;">
+    <h2 class="archive__item-title" style="font-size: 24px; margin-bottom: 4px;">
       <a href="{{ post.redirect_to }}" target="_blank">{{ post.title }}</a>
     </h2>
 
     {% if post.summary %}
-      <p class="archive__item-excerpt" style="font-size: 17px; color: #555; margin-top: 0; margin-bottom: 4px;">
+      <p class="archive__item-excerpt" style="font-size: 20px; color: #555; margin-top: 0; margin-bottom: 4px;">
         {{ post.summary }}
       </p>
     {% endif %}
 
-    <p class="page__meta" style="font-size: 15px; color: #666; margin-top: 0;">
+    <p class="page__meta" style="font-size: 18px; color: #666; margin-top: 0;">
       {{ post.date | date: "%B %d, %Y" }}
     </p>
 
