@@ -1,0 +1,30 @@
+---
+layout: archive
+title: "Blogs"
+permalink: /blog/
+author_profile: true
+---
+
+<div class="wordwrap">
+  This page includes selected notes and reflections.
+</div>
+
+{% include base_path %}
+
+{% for post in site.blog reversed %}
+  <article class="archive__item">
+    <h2 class="archive__item-title">
+      <a href="{{ post.redirect_to }}" target="_blank">{{ post.title }}</a>
+    </h2>
+
+    {% if post.summary %}
+      <p class="archive__item-excerpt">
+        {{ post.summary }}
+      </p>
+    {% endif %}
+
+    <p class="page__meta">
+      {{ post.date | date: "%B %d, %Y" }}
+    </p>
+  </article>
+{% endfor %}
