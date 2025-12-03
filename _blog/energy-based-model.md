@@ -2,6 +2,6 @@
 title: "Energy-Based Model"
 collection: blog
 date: 2025-12-02
-summary: "A simple overview of Energy-Based Models"
+summary: "A simple overview of Energy-Based Models."
 redirect_to: "https://handsomely-flight-4ce.notion.site/Energy-Based-Model-EBM-2bed8ead4a168008a7e0c48d8d558eeb"
 ---
