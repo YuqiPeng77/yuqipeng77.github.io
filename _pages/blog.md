@@ -5,12 +5,12 @@ permalink: /blog/
 author_profile: true
 ---
 
-<h2>Blog Links</h2>
+{% for post in site.blog reversed %}
+### <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
 
-<ul>
-{% for item in site.data.blog %}
-  <li>
-    <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
-  </li>
+<span style="color: #666; font-size: 0.9em;">
+{{ post.date | date: "%B %d, %Y" }}
+</span>
+
+<br><br>
 {% endfor %}
-</ul>
