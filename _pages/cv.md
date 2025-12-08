@@ -76,7 +76,7 @@ Honors & Awards
 ======
 * First Place — “Yuan Geng Cup” Shenzhen Badminton Tournament, 2025  
 * First Place — USA National Collegiate Team Badminton Championships, 2024  
-* Third Place — “Li-Ning Cup” Beijing University Division (Men’s Singles), 2018  
+* Third Place — “Li-Ning Cup” Beijing Division (Men’s Singles), 2018  
 
 Technical Skills
 ======
