@@ -9,6 +9,7 @@
 - Removed the Blogs navigation item from `_data/navigation.yml`.
 - Deleted `_pages/blog.html` so the `/blog/` index page is no longer generated from that page.
 - Did not modify `files/Yuqi_Peng_CV.pdf`.
+- Updated the site contact email in `_config.yml` from `peng.yuq@northeastern.edu` to `yuqipeng@arizona.edu`.
 
 ## Verification
 
