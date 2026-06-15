@@ -10,11 +10,14 @@ redirect_from:
 {% include base_path %}
 
 You can also access the PDF version here: [Yuqi Peng's CV](/files/Yuqi_Peng_CV.pdf)   
-*Latest update: November, 2025*
+*Latest update: June, 2026*
 
 Education
 ======
-* **Northeastern University**, Sep. 2023 - Apr. 2026 (expected)
+* **University of Arizona**, Fall 2026 -
+  * Ph.D. student
+  * Advisor: [Prof. Huanrui Yang](https://sites.google.com/view/huanrui-yang)
+* **Northeastern University**, Sep. 2023 - Apr. 2026
   * M.S. in Computer Science
   * GPA: 4.0 / 4.0
 * **University of Colorado at Denver**, Sep. 2019 - May 2024
@@ -86,4 +89,3 @@ Technical Skills
 
 
   
-
